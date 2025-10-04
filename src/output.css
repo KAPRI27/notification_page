@@ -1,3 +1,8 @@
+/*! tailwindcss v4.1.14 | MIT License | https://tailwindcss.com */
+.underline {
+  text-decoration-line: underline;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
