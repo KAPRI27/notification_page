@@ -4,86 +4,114 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
-  
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/img/favicon-32x32.png">
-  
   <title>Frontend Mentor | Notifications page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="stylesheet" href = "../styles.css">
+  
 </head>
-<body class=" ">
+<body class="">
+  <section class="main ">
 
-  <section class=" ">
-    <ul class=" ">
-      <li class=" "><strong>Notifications</strong> <span class=" ">3</span></li>
-      <li class=" ">Mark all as read</li>
-    </ul>
-    <div class=" ">
-      <img class=" " src="/src/assets/img/avatar-mark-weber.png" alt="">
-      <article class=" ">
-        <p><strong>Mark Webber </strong>reacted to your recent post My first tournament today!</p>
-        <p class=" ">1m ago</p>
-      </article>
+    <div class="notifications">
+      <h3 class="title"><strong>Notifications</strong> <span class="number">3</span></h3>
+      <p class="mark">Mark all as read</p>
     </div>
-    <div class=" ">
-      <img class=" " src="/src/assets/img/avatar-carolina-roman.png" alt="">
+
+    <div class="post ">
+      <img class="image" src="/src/assets/img/avatar-mark-weber.png" alt="">
       <article class=" ">
-        <p><strong>Carolina Román</strong> followed you</p>
-        <p class=" ">5m ago</p>
-      </article>
-    </div>
-    <div class=" ">
-      <img class=" " src="/src/assets/img/avatar-jacob-thompson.png" alt="">
-      <article class=" ">
-        <p class=""><strong>Jacob Thompson</strong> has joined your group <span class=" ">Chess Club</span></p>
-        <p class=" ">1 day ago</p>
+        <p><span class="name">Mark Webber </span>
+           <span class="subject">reacted to your recent post </span>
+           <span class="reaction">My first tournament today!</span>
+           <span class="status not-read"></span>
+        </p>
+        <p class="time">1m ago</p>
       </article>
     </div>
 
-    <div class=" ">
-      <img class=" " src="/src/assets/img/avatar-rizky-hasanuddin.png" alt="">
+    <div class="post ">
+      <img class="image"  " src="/src/assets/img/avatar-carolina-roman.png" alt="">
       <article class=" ">
-        <p><strong>Rizky Hasanuddin</strong> sent you a private message</p>
-        <p class=" ">5 days ago</p>
-        <div class=" ">
-          <p>Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and 
+        <p>
+          <span class="name">Carolina Román</span> 
+          <span class="subject">followed you</span>
+          <span class="status not-read"></span>
+        </p>
+        <p class="time">5m ago</p>
+      </article>
+    </div>
+
+    <div class="post ">
+      <img class="image"  " src="/src/assets/img/avatar-jacob-thompson.png" alt="">
+      <article class=" ">
+        <p class=""><span class="name">Jacob Thompson</span> 
+          <span class="subject">has joined your group</span>
+          <span class="group">Chess Club</span>
+          <span class="status not-read"></span>
+        </p>
+        <p class="time">1 day ago</p>
+      </article>
+    </div>
+
+    <div class="post ">
+      <img class="image"  " src="/src/assets/img/avatar-rizky-hasanuddin.png" alt="">
+      <article class=" ">
+        <p>
+          <span class="name">Rizky Hasanuddin</span> 
+          <span class="subject">sent you a private message</span>
+          <span class="status "></span>
+        </p>
+        <p class="time">5 days ago</p>
+        
+      
+      <div class="message-container">
+        <p class="message">Hello, thanks for setting up the <span class="group">Chess Club</span>. I've been a member for a few weeks now and 
           I'm already having lots of fun and improving my game.</p>
-        </div>
+      </div>
       </article>
     </div>
 
-    <div class=" ">
-      <img class=" " src="/src/assets/img/avatar-kimberly-smith.png" alt="">
+    <div class="post ">
+      <img class="image"  " src="/src/assets/img/avatar-kimberly-smith.png" alt="">
       <article class=" ">
-        <p><strong>Kimberly Smith</strong> commented on your picture</p>
-        <p class=" ">1 week ago</p>
+        <p>
+          <span class="name">Kimberly Smith</span> 
+          <span class="subject">commented on your picture</span>
+          <span class="status "></span>
+        </p>
+        <p class="time">1 week ago</p>
       </article>
-      <img class=" "  src="/src/assets/img/image-chess.png" alt="fotografia del tablero de ajedrez a medio partido">
+      <img class="picture" "  src="/src/assets/img/image-chess.png" alt="fotografia del tablero de ajedrez a medio partido">
     </div>
 
-    <div class=" ">
-      <img class=" " src="/src/assets/img/avatar-nathan-petterson.png" alt="">
+    <div class="post ">
+      <img class="image"  " src="/src/assets/img/avatar-nathan-petterson.png" alt="">
       <article class=" ">
-        <p><strong>Nathan Peterson</strong> reacted to your recent post <span class=" ">5 end-game strategies to increase your win rate</span></p>
-        <p class=" ">2 weeks ago</p>
+        <p><span class="name">Nathan Peterson</span> 
+          <span class="subject">reacted to your recent post</span> 
+          <span class="reaction ">5 end-game strategies to increase your win rate</span>
+          <span class="status "></span>
+        </p>
+        <p class="time">2 weeks ago</p>
       </article >
     </div>
-    <div class=" ">
-      <img class=" " src="/src/assets/img/avatar-anna-kim.png" alt="">
+    <div class="post ">
+      <img class="image"  " src="/src/assets/img/avatar-anna-kim.png" alt="">
       <article class=" ">
-        <p><strong>Anna Kim</strong> left the group <span class=" ">Chess Club</span></p>
-        <p class=" ">2 weeks ago</p>
+        <p>
+          <span class="name">Anna Kim</span> 
+          <span class="subject">left the group</span>
+          <span class="group">Chess Club</span>
+          <span class="status "></span>
+        </p>
+        <p class="time">2 weeks ago</p>
       </article>
     </div>
   </section>
- 
   
-
-    
-  
+  <div class="attribution">
+    Challenge by <a href="https://frontendmentor.io?ref=challenge" target="_blanl">Frontend Mentor</a>. 
+    Coded by <a href="https://www.kapri27.com" target="_blank">Paula Maureira - <span class="brand" > Kapri27</span></a>
+  </div>
 </body>
 </html>

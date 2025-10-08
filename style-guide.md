@@ -18,13 +18,13 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- White: hsl(0, 100%, 100%)
-- Navy 50: hsl(210, 60%, 98%)
-- Blue 100: hsl(211, 68%, 94%)
-- Navy 100: hsl(205, 33%, 90%)
-- Gray 500: hsl(219, 14%, 63%)
-- Gray 600: hsl(219, 12%, 42%)
-- Navy 950: hsl(224, 21%, 14%)
+- White: hsl(0, 0%, 100%);
+- Very light grayish blue: hsl(210, 60%, 98%);
+- Light grayish blue 1: hsl(211, 68%, 94%);
+- Light grayish blue 2: hsl(205, 33%, 90%);
+- Grayish blue: hsl(219, 14%, 63%);
+- Dark grayish blue: hsl(219, 12%, 42%);
+- Very dark blue: hsl(224, 21%, 14%);
 
 ## Typography
 
