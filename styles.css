@@ -131,8 +131,6 @@ body{
     background-color: var(--Red);
 }
 
-
-
 .attribution {
     font-size: 0.875em; /*12px;*/
     text-align: center;
@@ -142,7 +140,6 @@ body{
 .attribution a {
     color: hsl(228, 45%, 44%); 
 }
-
 
 .brand{
     color: rgb(253, 30, 30);
